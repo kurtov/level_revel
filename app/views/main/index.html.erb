@@ -1,0 +1,13 @@
+<% content_for :javascripts, javascript_include_tag('http://api-maps.yandex.ru/2.1/?lang=ru-RU') %>
+Сервис по поиску ресторанов и баров в пределах ТТК (кликните по карте и получите список заведений в радиусе 4 км).
+<div id="map" class="map"></div>
+<table class="near">
+    <caption>Результаты поиска:</caption>
+    <thead>
+        <tr>
+            <th>№</th>
+            <th>Адрес</th>
+        </tr>
+    <thead>
+    <tbody></tbody>
+</table>
