@@ -18,6 +18,7 @@ ymaps.ready(function () {
                     var row = tbody.insertRow(tbody.rows.length);
                     row.insertCell(0).innerHTML = tbody.rows.length;
                     row.insertCell(1).innerHTML = address.address;
+                    row.insertCell(2).innerHTML = address.dist.toFixed(2);
                     map.geoObjects.add(new ymaps.Placemark([address.latitude, address.longitude], {
                         iconContent: tbody.rows.length
                     }));

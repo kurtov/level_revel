@@ -1,1 +1,1 @@
-json.array! @bars, partial: 'bars/bars', as: :bar
+json.array! @bars_with_dist, partial: 'bars/bar_with_dist', as: :bar
